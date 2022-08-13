@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+    float:center;
+    color:rgb(17, 17, 17);
+    box-shadow: rgb(167, 0, 0);
+    text-align: center;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.textBox{
+    text-align: center;
+    
+}
+
+.buttons{
+  width: 100%;
+  text-align: center;
+}
+
+#text{
+margin-top: 25px;
+width: 90%;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+background-color: #f8f8f8;
+font-size: 16px;
+resize: none;
+color: #0A3871;
+}
+
+#text::placeholder{
+  color: #3b5f8a;;
+}
+
+
+.button{
+  width: 200px;
+  text-align: center;
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 25px;
+  margin-left:25px ;
+  margin-right:25px ;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button:disabled {
+  pointer-events: none;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.result{
+  text-align: center;
+  height: 150px;
+  margin: 25px;
+}
+.result_text{
+  width: 90%;
+  height: 150px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: vertical;
+  
+}
+
+.result_text::placeholder{
+  color: #39338d;
+  text-decoration: underline #39338d;
+}
+

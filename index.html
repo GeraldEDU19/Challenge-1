@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+     <div class="title">
+        <h1>Encriptador Challenge 01</h1>
+     </div>
+
+     <div class="textBox">
+      <form>
+         <textarea id= "text" placeholder= "Ingrese el texto a encriptar"></textarea>
+       </form>
+     </div>
+     <div class="buttons">
+        <input type="button"class = "button" value="Encriptar" onclick="encrypt()" id = "button"/>
+        <input type="button" class = "button" value="Desencriptar"onclick="uncrypt()" id = "button"/>
+       
+      </div>
+     <div class="result">
+      <textarea id = "result_text"class= "result_text" disabled placeholder="Aquí aparecerá tu texto"></textarea>
+     </div>
+     <div class="buttons">
+     <input type="button" class = "button" value="Copiar"onclick="copy()" id = "button"/>
+     </div>
+
+
+
+
+    <script src="/code.js"></script>
+</body>
+</html
